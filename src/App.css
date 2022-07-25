@@ -2,8 +2,12 @@
     font-family: 'Inter'
 }
 
+body {
+    --bg-color: #F55A5A;
+}
+
 #logo {
-    background-color: #F55A5A;
+    background-color: var(--bg-color);
     height: 55px;
     display: flex;
     justify-content: center;
@@ -17,4 +21,8 @@
 #logo img {
     width: 30px;
     margin: 15px;
+}
+
+.card-location img {
+    color: var(--bg-color);
 }
